@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+</head>
+<body>
+
+<strong>DADOS DO ALUNO</strong>
+
+	#if ($matricula)
+	<p>Matricula: $matricula</p>
+	#else
+	<p>Matricula não realizada!</p>
+	#end 
+	
+	#if ($nome)
+	<p>Nome: $nome</p>
+	#else
+	<p>Nome não preenchido!</p>
+	#end 
+	
+	#if ($email)
+	<p>Email: $email</p>
+	#else
+	<p>Email não preenchido!</p>
+	#end 
+	
+<br>
+	
+<strong>NOTAS</strong>
+
+	#if ($nome)
+	<p>Nome: $nome</p>
+	#else
+	<p>Nome da turma não preenchida!</p>
+	#end 
+	
+	#if ($nome)
+	<p>Nome: $nome</p>
+	#else
+	<p>Nome da atividade não preenchida!</p>
+	#end 
+	
+	#if ($nome)
+	<p>Nome: $nome</p>
+	#else
+	<p>Nome do professor não preenchido!</p>
+	#end 
+	
+	#if ($valor-maximo)
+	<p>Valor máximo: $valor-maximo</p>
+	#else
+	<p>Valor máximo não preenchido!</p>
+	#end 
+
+	#if ($notas)
+	<p>Notas: $notas</p>
+	#else
+	<p>Notas não preenchidas!</p>
+	#end 
+
+</body>
+</html>
